@@ -1,0 +1,4 @@
+32 bit BLOCK:260ms for 100000000 randoms generation
+32 bit SEQUE:395ms for 100000000 randoms generation
+64 bit BLOCK:259ms for 50000000 randoms generation
+64 bit SEQUE:309ms for 50000000 randoms generation

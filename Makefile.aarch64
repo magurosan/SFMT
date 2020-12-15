@@ -13,7 +13,7 @@ WARN = -Wmissing-prototypes -Wall -Winline
 OPTI = -O3 -finline-functions -fomit-frame-pointer -DNDEBUG \
 -fno-strict-aliasing --param max-inline-insns-single=1800
 STD = -std=c99
-CC = aarch64-linux-gnu-gcc
+CC = clang
 CCFLAGS = $(OPTI) $(WARN) $(STD)
 NEONFLAGS = -DHAVE_NEON -ftree-vectorize
 ARM_TARGET = test-arm-M19937
